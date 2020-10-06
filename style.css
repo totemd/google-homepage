@@ -1,0 +1,77 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+a {
+    color: #000000;
+    opacity: 0.75;
+    text-decoration: none;   
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#logo, #searchbar {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#logo {
+    margin-top: 89px;
+    height: 233px;
+}
+
+#logo img{
+    padding-top: 109px;
+}
+
+#searchbar {
+    height: 44px;
+}
+
+#searchbar input {
+    width: 482px;
+    height: 34px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 8px 12px;
+}
+
+#navbar {
+    height: 30px;
+    padding: 6px 6px 0px;
+}
+
+.navlink {
+    float: left;
+}
+
+.navlink-right {
+    float: right;
+}
+
+#sign-in {
+    background-color: #4285f4;
+    color: #ffffff;
+}
+
+a#sign-in {
+    font-weight: bold;
+}
+
+a:hover#sign-in {
+    box-shadow: 0 1px 0 rgba(0,0,0,.4);
+}
